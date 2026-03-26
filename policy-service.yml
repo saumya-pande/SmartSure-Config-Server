@@ -6,7 +6,7 @@ spring:
     name: policy-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/policy_db
+    url: jdbc:mysql://localhost:3306/policy_db?createDatabaseIfNotExist=true
     username: root
     password: 3141@MySQL
 
